@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: rgb(165, 165, 56);
+}
+
+.container p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+
+.container a,
+.container h3,
+form button,
+form input {
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+}
+
+.container h3 {
+    font-size: 22px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.container h2 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    font-size: 33px;
+    margin: 0 auto;
+}
+
+#about .container {
+    margin-bottom: 350px;
+    margin-top: 100px;
+}
+
+#games .container {
+    margin-bottom: 250px;
+}
+
+header img {
+    height: 240px;
+    margin-right: 100px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: rgb(165, 165, 56);
+    font-size: 20px;
+}
+
+.container {
+    max-width: 1640px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container .border2 {
+    height: 420px;
+}
+
+header .container,
+#about .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img {
+    height: 64px;
+}
+
+#games .brands-list img {
+    height: 40px;
+}
+
+#games .brands-list .xbox {
+    height: 50px;
+}
+
+#games .brands-list .epic {
+    margin-right: 50px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 36px;
+}
+
+section .xbox {
+    height: 80px;
+    margin-right: 20px;
+}
+
+section .epic {
+    margin-right: 80px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 16px 24px;
+}
+
+.container h2 {
+    margin-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+.border2 {
+    margin-right: 32px;
+}
+
+#games img {
+    height: 300px;
+}
+
+#games .branches {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.branches div{
+    width: 30%;
+}
+
+body hr {
+    border-color:rgb(165, 165, 56);
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.social-links img {
+    height: 40px;
+}
+
+.social-links li a {
+    text-decoration: none;
+
+}
+
+#contact .container {
+    display: block;
+}
+
+#contact .container h2 {
+    margin-top: 30px;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 20px;
+    padding: 8px;
+}
+
+form button {
+    background-color: rgb(165, 165, 56);
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(192, 192, 105);
+}
+
+input:focus {
+    outline-color: rgb(165, 165, 56);
+}
+
+form button {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 76px;
+}
+
+footer p {
+    color: white;
+    font-size: 12px;
+}
+
+footer .container img {
+    height: 54px;
+    margin-right: 120px;
+    display: inline;
+    margin-bottom: 54px;
+}
+
+footer #ps5 {
+    height: 80px;
+}
+
+#contact .contact-methods .theme img {
+    height: 640px;
+    margin-top: 10px;
+    margin-left: 800px;
+}
+
+.container .contact-methods {
+    display: inline;
+}
+
